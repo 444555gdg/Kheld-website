@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    font-size: 2em;
+    margin-top: 0;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+.products {
+    margin-bottom: 20px;
+}
+
+.products ul {
+    list-style: none;
+    padding: 0;
+}
+
+.products ul li {
+    margin-bottom: 10px;
+}
+
+.contact-us {
+    margin-top: 20px;
+}
+
+.contact-us form {
+    margin: 0;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+.contact-us form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.contact-us form input,
+.contact-us form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.contact-us form textarea {
+    height: 100px;
+}
+
+.contact-us form button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.about-us {
+    margin-top: 20px;
+}
+
+.about-us p {
+    margin-bottom: 20px;
+}
+
+.about-us ul {
+    list-style: none;
+    padding: 0;
+}
+
+.about-us ul li {
+    margin-bottom: 10px;
+}
+
+/* قواعد CSS للوضع الداكن */
+
+body.darkmode {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+h1.darkmode {
+    color: #ffffff;
+}
+
+p.darkmode {
+    color: #ffffff;
+}
+
+.products ul li.darkmode {
+    color: #ffffff;
+}
+
+.contact-us form.darkmode {
+    background-color: #222222;
+    color: #ffffff;
+}
+
+.about-us.darkmode
